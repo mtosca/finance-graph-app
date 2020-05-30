@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{cdn_css[0] | safe}}">
+<script type="text/javascript" src="{{cdn_js[0] | safe}}"></script>
+<div class="price">
+    <h1>Price graph</h1>
+    <p>This is price graph</p>
+</div>
+
+{{div1 | safe}}
+{{script1 | safe}}
+
+{% endblock %}
