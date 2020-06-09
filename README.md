@@ -6,3 +6,4 @@ A web app that shows stock prices.
 - Flask
 - Pandas
 - Bokeh
+- Black (code formatter)
